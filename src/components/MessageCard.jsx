@@ -13,19 +13,15 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = e]`Dear Maria,
 
-Your personalized birthday message goes here.
-
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+I know I am not with u on your special day today but 
+I am wishing u all my love and care and lots of hugs through this gift🎁
+love u a lot my sugar baby 💞
 
 Happy Birthday! 🎉
 
-— [Your Name]`;
+— Bushra`;
 
   // Handle page transitions
   useEffect(() => {
